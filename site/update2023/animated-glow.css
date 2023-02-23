@@ -1,0 +1,70 @@
+.animatedGlow {
+    position: relative;
+    /* height: 100px; */
+    /* width: 100px; */
+    min-width: 20px;
+    /* padding: 20px 20px; */
+    font-size: 0.8em;
+    line-height: 40px;
+    /* margin: 100px auto; */
+    border-radius: 10px;
+  
+}
+.grid-1-1 .insane{
+    width: 400px;
+    height: 160px;
+}
+.grid-1-2 .gold{
+    width: 400px;
+    height: 160px;
+}
+.grid-1-2 .silver{
+    width: 200px;
+    height: 80px;
+}
+.grid-1-2 .bronze{
+    width: 200px;
+    height: 80px;
+}
+.grid-1-2 .partners{
+    width: 200px;
+    height: 80px;
+}
+.animatedGlow:after {
+/*    position: absolute;*/
+    content: "";
+    top: 0px;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+    -webkit-filter: blur(15px);
+    filter: blur(15px);
+    background: -webkit-gradient(linear, right top, left top, from(#FF1F00), color-stop(#ff4900), to(#ff0c00));
+    background: linear-gradient(to left, #FF1F00, #ff4900, #ff0c00);
+    background-size: 200% 200%;
+    -webkit-animation: animateGlow 1s linear infinite;
+    animation: animateGlow 1s linear infinite;
+}
+
+@-webkit-keyframes animateGlow {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 200% 50%;
+    }
+}
+
+@keyframes animateGlow {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 200% 50%;
+    }
+}

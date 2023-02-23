@@ -1,0 +1,123 @@
+@media only screen and (max-width: 600px) {
+    .grid-1-1 .insane{
+    width: 230px !important;
+    height: 160px !important;
+    }
+     .grid-1-2 .gold:nth-child(1){
+            position: relative;
+    left: 31px;
+    }
+    .grid-1-2 .gold{
+       
+        width: 400px !important;
+        height: 160px !important;
+    }
+    .grid-1-2 .silver{
+        width: 138px !important;
+        height: 80px !important;
+    }
+    .grid-1-2 .bronze{
+        width: 114px !important;
+        height: 80px !important;
+    }
+    .grid-1-2 .partners{
+        width: 200px !important;
+        height: 80px !important;
+    }
+    #canvas-logo {
+        display: none;
+    }
+    .navbar-toggler{
+        position: absolute;
+        right: 10px;
+    }
+    #about-it {
+        margin-left: 0 !important;
+        display: block !important;
+    }
+    #about-it-img {
+        width: 100vw !important;
+        margin-top: 68px;
+        display: none !important;
+    }
+    .sub-title{
+           text-align: center !important;
+            width: 100vw !important;
+    }
+    .text-box {
+        width: 100vw !important;
+        font-size:14px !important;
+        text-align: center !important;
+    }
+    #count-down-box {
+        display: block !important;
+        margin-left: 0px !important;
+    }
+    #count-down {
+        padding: 20px !important;
+    }
+    #schedule-day-selector div {
+        width: 180px !important;
+    }
+    .content {
+        width: 94vw !important;
+    }
+    .avatar,
+    .know-more {
+        display: none !important;
+    }
+    .time,
+    .location {
+        width: 146px !important;
+    }
+    #partners_title{
+        width: 100vw !important;
+        text-align: center !important;
+        font-size: 4ch !important;
+    }
+    .partners_and_sponsers{
+        margin-top: 240px !important;
+    }
+    .gold{
+        font-size: 2ch !important;
+    }
+    .silver{
+        font-size: 1.5ch !important ;
+    }
+    .bronze{
+        font-size: 1ch !important;
+    }
+    .partners{
+        font-size: 1ch !important;
+    }
+    .talk {
+        width: 168px !important;
+        font-size: 15px !important;
+    }
+    .grid {
+       
+        grid-template-columns: repeat(1, 1fr) !important;
+        grid-template-rows: repeat(1, 1fr) !important;
+    }
+   
+    #partner-and-sponsors-SILVER,
+    #partner-and-sponsors-BRONZE,
+    #partner-and-sponsors-GOLD {
+        margin-top: 100px !important;
+        box-sizing: border-box !important;
+        width: 94vw !important;
+    }
+    .podium-switch {
+        display: block !important;
+    }
+    .form-update {
+        color: yellow;
+        /* margin-top: 152px; */
+        width: 100% !important;
+        /* margin-left: 30%; */
+        left: 50%;
+        top: 50%;
+        transform: translate(0%, 0%) !important;
+        position: unset !important;
+    }
+}
