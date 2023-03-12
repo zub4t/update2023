@@ -8,7 +8,7 @@ import io
 import os
 import base64
 import json
-app = Flask(__name__,template_folder='/root/templates')
+app = Flask(__name__,template_folder='/home/marco/update2023/templates')
 
 
 uuid_email_mapping = {}

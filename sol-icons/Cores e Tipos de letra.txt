@@ -1,0 +1,17 @@
+Cor dos botões - FF8B13
+Cor dos botões selecionados - D17210
+Cor do Gold - FFD700
+Cor do Silver - C0C0C0
+Cor do Bronze - CD7F32
+Cor do Parceiros - FFFFFF
+
+Tipo de letra e tamanhos:
+ Texto
+   - Nunito
+   - Tamanho:20 
+   - Bold
+
+ Titulos
+   - Nunito
+   - Tamanho:24 
+   - Bold

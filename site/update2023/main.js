@@ -215,5 +215,5 @@ function fetchAndSetBackgroundImage(imageUrl, target) {
     target.style.backgroundSize = "contain";
     target.style.backgroundPositionX = "center"
     target.style.backgroundPositionY = "center"
-    target.style.backgroundRepeat= "no-repeat"
+    target.style.backgroundRepeat = "no-repeat"
 }

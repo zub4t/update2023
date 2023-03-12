@@ -1,0 +1,82 @@
+{
+    "partners": [
+        {
+            "Name": "CTW",
+            "IMG": "./LOGOS/Critical_WHITE.png",
+            "IMG-HOVER": "./LOGOS/logo_CRITICALTECHWORKS_LOGO.png",
+            "Rank": "insane",
+            "url": "https://www.criticaltechworks.com/"
+        },
+        {
+            "Name": "BITSONAE",
+            "IMG": "./LOGOS/Bit_WHITE.png",
+            "IMG-HOVER": "./LOGOS/Bit.png",
+            "Rank": "gold",
+            "url": "https://mc.sonae.pt/relatorio-anual-2021/"
+        },
+        {
+            "Name": "FABAMAQ",
+            "IMG": "./LOGOS/Fabamaq_WHITE.png",
+            "IMG-HOVER": "./LOGOS/1_Logotipo.png",
+            "Rank": "gold",
+            "url": "https://www.fabamaq.com/"
+        },
+        {
+            "Name": "JUMIA",
+            "IMG": "./LOGOS/jumia_white.png",
+            "IMG-HOVER": "./LOGOS/jumia-logo.png",
+            "Rank": "silver",
+            "url": "https://group.jumia.com/"
+        },
+        {
+            "Name": "VESTAS",
+            "IMG": "./LOGOS/Vestas_WHITE.png",
+            "IMG-HOVER": "./LOGOS/Vestas.svg.png",
+            "Rank": "silver",
+            "url": "https://www.vestas.com/en"
+        },
+        {
+            "Name": "NATIXIS",
+            "IMG": "./LOGOS/Natixis_WHITE.png",
+            "IMG-HOVER": "./LOGOS/Natixis_logo.png",
+            "Rank": "silver",
+            "url": "https://natixis.groupebpce.com/"
+        },
+        {
+            "Name": "METYS",
+            "IMG": "./LOGOS/metys_white.png",
+            "IMG-HOVER": "/LOGOS/metys_white.png",
+            "Rank": "bronze",
+            "url": "https://metyis.com/"
+        },
+        {
+            "Name": "READINESSIT",
+            "IMG": "./LOGOS/Readiness_WHITE.png",
+            "IMG-HOVER": "./LOGOS/readiness_2.png",
+            "Rank": "bronze",
+            "url": "https://readinessit.com/"
+        },
+        {
+            "Name": "FCUP",
+            "IMG": "./LOGOS/Fcup_WHITE.png",
+            "IMG-HOVER": "./LOGOS/logo_fcup.png",
+            "Rank": "partners",
+            "url": "https://sigarra.up.pt/fcup/pt/web_page.Inicial"
+        },
+        {
+            "Name": "SUPERBOCK",
+            "IMG": "./LOGOS/superbock_white.png",
+            "IMG-HOVER": "./sol-icons/R.png",
+            "Rank": "partners",
+            "url": "https://www.superbock.pt/"
+        }
+        ,
+        {
+            "Name": "DOMINOS",
+            "IMG": "./LOGOS/dominos_white.png",
+            "IMG-HOVER": "./LOGOS/domino-s-logo-5A72DDBD09-seeklogo.com.png",
+            "Rank": "partners",
+            "url": "https://www.superbock.pt/"
+        }
+    ]
+}

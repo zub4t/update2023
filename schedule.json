@@ -1,0 +1,34 @@
+{
+    "Day1": [
+        {
+            "Avatar": "./photos/avatars/img_avatar_woman.png",
+            "Talk": " O que é a engenharia de fiabilidade de site (SRE) e a engenharia de plataformas",
+            "Time": "🕐 11:00 AM - 12h00 PM",
+            "Location": "🗺️ Conference Hall A",
+            "AboutIt": "A engenharia de confiabilidade de site (Site Reliability Engineering - SRE) é uma abordagem de engenharia de software que se concentra na confiabilidade, disponibilidade e escalabilidade dos sistemas de computação em larga escala. Ela é baseada na ideia de que os sistemas devem ser projetados, operados e mantidos com a mesma disciplina e rigor que o software de missão crítica, para garantir que eles permaneçam confiáveis e escaláveis mesmo quando confrontados com grandes volumes de tráfego ou outros tipos de estresse. Os engenheiros de SRE são responsáveis por garantir que os sistemas estejam sempre disponíveis e funcionando corretamente, por meio de uma combinação de automação, monitoramento, análise de dados e outras técnicas. Eles trabalham em estreita colaboração com engenheiros de software para desenvolver e implantar sistemas confiáveis e escaláveis."
+        },
+        {
+            "Avatar": "./photos/avatars/AndrA_Guilhon.jpg",
+            "Talk": "Palestra sobre Clean Code com André Guilhon (Smartex)",
+            "Time": "🕐 4:00 PM - 5h00 PM",
+            "Location": "🗺️ Conference Hall B",
+            "AboutIt": "André Guilhon, Embedded Software Engineer na Smartex, vai explicar, numa palestra interativa, como escrever código mais claro - clean code. Esperamos que após esta Palestra possam escrever código mais fácil de entender e manter."
+        }
+    ],
+    "Day2": [
+        {
+            "Avatar": "./photos/avatars/img_avatar_woman.png",
+            "Talk": "Análise e exploração de vulnerabilidade",
+            "Time": "🕐 10:00 AM - 11h30 AM",
+            "Location": "🗺️ Conference Hall B",
+            "AboutIt": "A análise e exploração de vulnerabilidade são duas etapas cruciais no processo de identificação e correção de vulnerabilidades de segurança em sistemas de computadores e aplicativos.A análise de vulnerabilidade envolve a identificação de possíveis falhas de segurança em um sistema ou aplicativo por meio de uma variedade de técnicas, incluindo varreduras de portas, varreduras de vulnerabilidade, análise de código e testes de penetração. O objetivo da análise de vulnerabilidade é identificar as vulnerabilidades existentes e avaliar a gravidade dessas vulnerabilidades.A exploração de vulnerabilidades, por sua vez, envolve a tentativa de explorar as vulnerabilidades identificadas para obter acesso não autorizado a um sistema ou aplicativo. Os hackers usam técnicas de exploração de vulnerabilidades para tentar contornar as medidas de segurança implementadas pelos desenvolvedores de software e obter acesso a sistemas, informações ou dados confidenciais."
+        },
+        {
+            "Avatar": "./photos/avatars/PauloRibeiro_Foto.jpg",
+            "Talk": "Palestra sobre o percurso do Paulo Ribeiro",
+            "Time": "🕐 2:00 PM - 3h00 PM",
+            "Location": "🗺️ Conference Hall C",
+            "AboutIt": "Paulo Ribeiro é cofundador e VP de Engenharia de Software da Smartex e ex-alunos do Mestrado Integrado em Engenharia de Redes e Sistemas de Computação da FCUP. Ele também fez uma pós-graduação onde trabalhou em IoT como pesquisador para TI (Instituto de Telecomunicações).Paulo, eleito 30 abaixo de 30 pela Forbes em 2020, cofundou a Smartex em 2018 junto com outros dois ex-alunos da FCUP, Gilberto Loureiro e António Rocha. A missão da Smartex é criar tecnologia inovadora para capacitar as fábricas têxteis em todo o mundo a produzir com zero desperdício."
+        }
+    ]
+}

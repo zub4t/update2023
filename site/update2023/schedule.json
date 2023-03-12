@@ -2,58 +2,58 @@
     "Day1": [{
             "Avatar": "./photos/avatars/img_avatar_woman.png",
             "Talk": "Introduction to Machine Learning",
-            "Time": "09:00 - 10h00",
-            "Location": "Conference Hall A",
+            "Time": "🕐 09:00 - 10h00",
+            "Location": "🗺️ Conference Hall A",
             "AboutIt": "This talk will cover the basics of machine learning, including supervised and unsupervised learning, decision trees, and linear regression."
         },
         {
             "Avatar": "./photos/avatars/img_avatar_man.png",
             "Talk": "Deep Learning with TensorFlow",
-            "Time": "13:00 - 14h00",
-            "Location": "Conference Hall B",
+            "Time": "🕐 13:00 - 14h00",
+            "Location": "🗺️ Conference Hall B",
             "AboutIt": "Learn about deep learning and how to use TensorFlow to build neural networks for image classification, language translation, and more."
         },
         {
             "Avatar": "./photos/avatars/img_avatar_woman.png",
             "Talk": "Data Visualization with D3.js",
-            "Time": "15:00 - 16h00",
-            "Location": "Conference Hall C",
+            "Time": "🕐 15:00 - 16h00",
+            "Location": "🗺️ Conference Hall C",
             "AboutIt": "Discover the basics of data visualization and how to use the D3.js library to create interactive visualizations for the web."
         },
         {
             "Avatar": "./photos/avatars/img_avatar_woman.png",
             "Talk": "Building RESTful APIs with Flask",
-            "Time": "17:00 - 18h00",
-            "Location": "Conference Hall A",
+            "Time": "🕐 17:00 - 18h00",
+            "Location": "🗺️ Conference Hall A",
             "AboutIt": "Learn how to build RESTful APIs using the Flask web framework and how to connect them to databases and other services."
         }
     ],
     "Day2": [{
             "Avatar": "./photos/avatars/img_avatar_woman.png",
             "Talk": "Advanced Machine Learning Techniques",
-            "Time": "09:00 - 10h00",
-            "Location": "Conference Hall B",
+            "Time": "🕐 09:00 - 10h00",
+            "Location": "🗺️ Conference Hall B",
             "AboutIt": "This talk will cover advanced techniques in machine learning, including neural networks, deep reinforcement learning, and generative models."
         },
         {
             "Avatar": "./photos/avatars/img_avatar_man.png",
             "Talk": "Natural Language Processing with NLTK",
-            "Time": "11:00 - 12h00",
-            "Location": "Conference Hall C",
+            "Time": "🕐 11:00 - 12h00",
+            "Location": "🗺️ Conference Hall C",
             "AboutIt": "Learn how to use the Natural Language Toolkit (NLTK) to perform tasks such as text classification, part-of-speech tagging, and sentiment analysis."
         },
         {
             "Avatar": "./photos/avatars/img_avatar_man.png",
             "Talk": "Building Mobile Apps with React Native",
-            "Time": "13:00 - 14h00",
-            "Location": "Conference Hall A",
+            "Time": "🕐 13:00 - 14h00",
+            "Location": "🗺️ Conference Hall A",
             "AboutIt": "Discover how to build mobile apps for iOS and Android using React Native and how to integrate them with APIs and backends."
         },
         {
             "Avatar": "./photos/avatars/img_avatar_man.png",
             "Talk": "Web Scraping with BeautifulSoup and Selenium",
-            "Time": "15:00 - 16h00",
-            "Location": "Conference Hall B",
+            "Time": "🕐 15:00 - 16h00",
+            "Location": "🗺️ Conference Hall B",
             "AboutIt": "Learn how to extract data from websites using the BeautifulSoup and Selenium libraries and how to clean and manipulate the data for analysis."
         }
     ]

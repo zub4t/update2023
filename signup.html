@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://www.google.com/recaptcha/api.js?onload=onLoadCallback&render=explicit"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,700;1,300;1,700&display=swap"
+        rel="stylesheet">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="./flipdown/js/flipdown.js"></script>
+    <link rel="stylesheet" href="./flipdown/css/flipdown.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.7/p5.min.js'></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monofett&family=Quattrocento+Sans&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+
+    <link rel="stylesheet" href="main_mobile.css">
+
+
+    <script src="art.js"></script>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+
+    <title>UPdate</title>
+</head>
+
+<body>
+    <!--
+
+
+    <div id="t1" class="triangle-v1"></div>
+    <div id="t2" class="triangle-v1"></div>
+    <div id="t3" class="triangle-v1 to-left"></div>
+    <div id="t4" class="triangle-v1 to-left"></div>
+        -->
+
+
+
+
+    <nav class="navbar navbar-expand-md navbar-dark dark py-3 py-lg-3">
+        <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="/index.html">UPdate 2023</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/location.html">Local do Evento</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/awards.html">Prémios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/hackathon.html">Hackathon</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.instagram.com/nucc_fcup/">NUCC</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://sigarra.up.pt/fcup/pt/web_page.inicial">FCUP</a>
+                </li>
+            </ul>
+        </div>
+        <div class="mx-auto order-0">
+            <a class="navbar-brand mx-auto" style="
+    width: 20vh;
+    height: 5vh;
+" href="#">
+                <span id="logo-nav" onclick="location.href='https://nucc.dcc.fc.up.pt'"></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+            <ul class="navbar-nav ml-auto">
+
+                <li class="nav-item">
+                    <div id="button-nav"
+                        onclick="location.href='https://docs.google.com/forms/d/e/1FAIpQLSdYFydAVxcUd6GFcyuzU8VdGSw2Yd2B_v-4JerUSuVM6z_YdA/viewform'">
+                        Entrevistas </div>
+                </li>
+                <li class="nav-item">
+                    <div id="button-nav" onclick="location.href='./signup.html'"> Bilhetes </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+
+
+    <div class="container my-5" style="color:orange !important">
+        <h1 class="mb-4">Bilhete Geral</h1>
+        <form id="general-form" action="/process" method="POST" novalidate>
+            <div class="form-group">
+                <label for="fst_name">Nome Próprio</label>
+                <input type="text" class="form-control" id="fst_name" name="fst_name" required>
+                <div class="invalid-feedback">
+                    Por favor forneça um nome próprio válido.
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="lst_name">Apelido</label>
+                <input type="text" class="form-control" id="lst_name" name="lst_name" required>
+                <div class="invalid-feedback">
+                    Por favor forneça um apelido válido.
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+                <div class="invalid-feedback">
+                    Favor fornecer um endereço de correio electrónico válido.
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="city">Cidade</label>
+                <input type="text" class="form-control" id="city" name="city" required>
+                <div class="invalid-feedback">
+                    Por favor, forneça uma cidade.
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="state">Distrito</label>
+                <input type="text" class="form-control" id="state" name="state" required>
+                <div class="invalid-feedback">
+                    Por favor, forneça um distrito.
+                </div>
+            </div>
+            <div class="custom-control custom-radio">
+                <input type="radio" class="custom-control-input" id="vegetarian" name="diet" value="vegetarian">
+                <label class="custom-control-label" for="vegetarian">Vegetariano</label>
+            </div>
+            <div class="custom-control custom-radio">
+                <input type="radio" class="custom-control-input" checked id="non-vegetarian" name="diet"
+                    value="non-vegetarian">
+                <label class="custom-control-label" for="non-vegetarian">Não Vegetariano</label>
+            </div>
+
+
+            <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="hackton" name="hackton" onchange="
+        let t = document.getElementById('hack-form');
+        if(t.style.display =='none')
+            t.style.display ='block'
+        else
+            t.style.display = 'none'
+        ">
+                <label style="font-size: 16px;" class="custom-control-label" for="hackton">Está interessado em
+                    participar em um <span style="color: white;">Hackathon ?</span> </label>
+            </div>
+
+            <div id="hack-form" style="display:none">
+
+
+
+                <div class="line" style="width:100%;"></div>
+                <div>
+                    <h1>Hackathon</h1>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Número de telefone</label>
+                    <input type="tel" class="form-control" id="phone" name="phone" required>
+                    <div class="invalid-feedback">
+                        Por favor, forneça um número de telefone válido.
+                    </div>
+                </div>
+
+
+
+
+
+
+                <div class="form-group">
+                    <label for="members">Quantidade de Membros na Equipa (1-5)</label>
+                    <input type="number" class="form-control" id="members" name="members" min="1" max="5"
+                        onchange="addFields()" required>
+                    <div class="invalid-feedback">
+                        Indique o número de membros da equipa (1-5).
+                    </div>
+                </div>
+
+                <div id="member-fields"></div>
+
+                <script>
+                    function addFields() {
+                        document.getElementById('member-fields').innerHTML = "";
+                        // get the number of team members entered by the user
+                        var numMembers = document.getElementById("members").value;
+                        if (numMembers > 5) {
+                            alert("The team should have on maximum 5 elements");
+                            document.getElementById("members").value = "";
+                            document.getElementById("members").focus();
+                            return
+
+                        }
+                        // create a grid with the specified number of rows and 2 columns for name and email
+                        var grid = document.createElement("div");
+                        for (var i = 1; i <= numMembers; i++) {
+                            var row = document.createElement("div");
+                            var td1 = document.createElement("div");
+                            var td2 = document.createElement("div");
+                            row.classList.add("row");
+
+                            td1.classList.add("col-md-6");
+                            td2.classList.add("col-md-6");
+
+                            var nameInput = document.createElement("input");
+                            nameInput.classList.add("form-control");
+                            nameInput.setAttribute("type", "text");
+                            nameInput.setAttribute("name", "member-name" + i);
+                            nameInput.setAttribute("placeholder", "Name of member " + i);
+                            nameInput.setAttribute("required", "");
+                            var emailInput = document.createElement("input");
+                            emailInput.classList.add("form-control");
+                            emailInput.setAttribute("type", "email");
+                            emailInput.setAttribute("name", "member-email" + i);
+                            emailInput.setAttribute("placeholder", "Email of member " + i);
+                            emailInput.setAttribute("required", "");
+                            td1.appendChild(nameInput);
+                            td2.appendChild(emailInput);
+                            row.appendChild(td1);
+                            row.appendChild(td2);
+
+                            grid.appendChild(row);
+                        }
+
+                        // add the grid to the page
+                        var memberFields = document.getElementById("member-fields");
+                        memberFields.innerHTML = "";
+                        memberFields.appendChild(grid);
+                    }
+                </script>
+
+
+
+
+
+                <div class="form-group">
+                    <label for="team-name">Nome da Equipa</label>
+                    <input type="text" class="form-control" id="team-name" name="team-name" required>
+                    <div class="invalid-feedback">
+                        Por favor forneça um nome de equipa.
+                    </div>
+                </div>
+
+
+
+                <input type="hidden" name="g-recaptcha-response" id="g-recaptcha-response" />
+
+
+
+
+            </div>
+            <div id="divRecaptcha" class="g-recaptcha" data-sitekey="6LeY1u4kAAAAADeLx2JNS2-Xv2gRO825CvydJ26W"></div>
+
+            <button type="submit" class="btn btn-primary"
+                style="background-color: orange; border: none;">Submit</button>
+        </form>
+    </div>
+
+
+
+
+
+
+
+    <script>
+
+        function onLoadCallback() {
+            grecaptcha.render('divRecaptcha', {
+                sitekey: '6LeY1u4kAAAAADeLx2JNS2-Xv2gRO825CvydJ26W',
+                callback: (token) => {
+                    document.getElementById('g-recaptcha-response').value = token;
+                }
+            });
+
+        }
+        function validateForm() {
+            let hv = document.getElementById('hack-form').style.display == 'block'
+            // Get form fields
+            const firstNameField = document.getElementById("fst_name");
+            const lastNameField = document.getElementById("lst_name");
+            const emailField = document.getElementById("email");
+            const cityField = document.getElementById("city");
+            const stateField = document.getElementById("state");
+            const phoneField = document.getElementById("phone");
+            const teamNameField = document.getElementById("team-name");
+            const membersField = document.getElementById("members");
+            // Check if each field is valid
+            if (firstNameField.value.trim() === "") {
+                firstNameField.classList.add("is-invalid");
+                return false;
+            }
+            if (lastNameField.value.trim() === "") {
+                lastNameField.classList.add("is-invalid");
+                return false;
+            }
+            if (emailField.value.trim() === "") {
+                emailField.classList.add("is-invalid");
+                return false;
+            } else if (!/\S+@\S+\.\S+/.test(emailField.value)) {
+                emailField.classList.add("is-invalid");
+                return false;
+            }
+            if (cityField.value.trim() === "") {
+                cityField.classList.add("is-invalid");
+                return false;
+            }
+            if (stateField.value.trim() === "") {
+                stateField.classList.add("is-invalid");
+                return false;
+            }
+
+            if (hv) {
+                if (phoneField.value.trim() === "") {
+                    phoneField.classList.add("is-invalid");
+                    return false;
+                } else if (!/^\d{9}$/.test(phoneField.value)) {
+                    phoneField.classList.add("is-invalid");
+                    return false;
+                }
+                if (teamNameField.value.trim() === "") {
+                    teamNameField.classList.add("is-invalid");
+                    return false;
+                }
+                if (membersField.value.trim() === "" || membersField.value < 1 || membersField.value > 5) {
+                    membersField.classList.add("is-invalid");
+                    return false;
+                }
+
+
+
+            }
+
+            // If all fields are valid, return true
+            return true;
+        }
+
+        // Add event listener to form submission
+        const form = document.getElementById("general-form");
+        form.addEventListener("submit", function (event) {
+            if (!validateForm()) {
+                event.preventDefault();
+                event.stopPropagation();
+
+            }
+            form.classList.add("was-validated");
+        });
+
+
+    </script>
+    <script>
+        function onSubmit(token) {
+            document.getElementById("general-form").submit();
+        }
+    </script>
+
+
+</body>
+
+
+</html>
